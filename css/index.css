@@ -201,10 +201,10 @@ footer {
 .home .header-img {
   display: flex;
   flex-direction: column;
-  align-content: center;
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  align-content: center;
 }
 .home .space-images {
   display: flex;
@@ -241,6 +241,18 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+  font-size: 1.8rem;
+  border-radius: 5px;
 }
 .home .walk .walk-img {
   width: 46%;
