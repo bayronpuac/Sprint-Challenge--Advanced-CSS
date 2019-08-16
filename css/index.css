@@ -163,7 +163,6 @@ p {
 nav {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   align-items: center;
@@ -174,7 +173,7 @@ nav .navigation {
   justify-content: space-evenly;
   padding: 10px 200px;
   font-size: 1.5rem;
-  width: 100%;
+  width: 70%;
 }
 @media (max-width: 500px) {
   nav .navigation {
@@ -211,7 +210,6 @@ footer {
 .home .header-img {
   display: flex;
   flex-direction: column;
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
   align-content: center;
