@@ -166,18 +166,28 @@ nav {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  align-items: center;
   background-color: aliceblue;
 }
-nav .navigation {
+.navigation {
   display: flex;
   justify-content: space-evenly;
   padding: 10px 200px;
   font-size: 1.5rem;
+  width: 100%;
 }
-nav .navigation a {
-  color: black;
+@media (max-width: 500px) {
+  .navigation {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    font-size: 1.3rem;
+  }
+  .navigation a {
+    color: black;
+  }
 }
-nav h2 {
+.navigation h2 {
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -253,6 +263,15 @@ footer {
   height: 35px;
   font-size: 1.8rem;
   border-radius: 5px;
+}
+.home .walk .walk-text .btn .btn:hover {
+  background-color: Green;
+  color: blue;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: white;
+  color: Black;
+  border: 1px solid black;
 }
 .home .walk .walk-img {
   width: 46%;
